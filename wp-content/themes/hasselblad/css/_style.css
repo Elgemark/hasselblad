@@ -1,0 +1,191 @@
+@font-face
+{
+font-family: Grotesque;
+src: url(../fonts/GrotesqueMTStd-Condensed.otf);
+}
+
+/* colour styles : light  */
+  body  { background: none; background-color: #FFF  font-size:12px; line-height:20px;  font-family: 'Grotesque', sans-serif;min-width: 1200px  }
+  #wrap { width:94%; margin-left:3%;}
+
+
+  /* font styles */ 
+  h  { font-size:40px; line-height:44px; color:#FFFFFF; padding:0px; margin:0px; font-weight:bold; padding-bottom:5px; padding-top:5px;font-family:'Grotesque',Arial, Helvetica, sans-serif;} /*Post Title, Page Title, Poster Title*/
+  h1  { font-size:36px; line-height:41px; color:#000000; padding:0px; margin:0px; font-weight:bold; padding-bottom:5px; padding-top:5px;font-family:'Grotesque',Arial, Helvetica, sans-serif;} 
+  h2  { font-size:14px; line-height:15px; color:#000000; padding:0px; margin:0px; font-weight:bold;font-family:'Grotesque',Arial, Helvetica, sans-serif;letter-spacing: 0px;} /*Card Title*/
+  h3  { font-size:13px; line-height:14px; color:#000000; padding:0px; margin:0px; font-weight:bold;font-family:'Grotesque',Arial, Helvetica, sans-serif;} /*Card Sub Title*/
+  h4  { font-size:15px; line-height:25px; color:#000000; padding:0px; margin:0px; font-weight:normal;font-family:'Grotesque',Arial, Helvetica, sans-serif;} 
+  h5  { font-size:13px; line-height:22px; color:#000000; padding:0px; margin:0px; font-weight:normal;font-family:'Grotesque',Arial, Helvetica, sans-serif;}
+  h6  { font-size:12px; line-height:22px; color:#858585; padding:0px; margin:0px; font-weight:normal;font-family:'Grotesque',Arial, Helvetica, sans-serif;} 
+  p   { font-size:12px; color:#000000; line-height:14px; margin:0px; padding:0px; padding-top:8px; padding-bottom:8px; font-family:'Helvetica',Arial, Helvetica, sans-serif; }
+
+/* list Styles */
+  ul  { padding:0px; margin:0; margin-left:0px; font-family:'Grotesque',Arial, Helvetica, sans-serif; margin-top:10px; letter-spacing: 0px;  }
+  ul li { font-size:12px; color:#858585; padding-left:10px; margin-bottom:7px; list-style:inside; list-style-type:square}
+  ol  { padding:0px; margin:0; margin-left:25px; font-family:'Grotesque',Arial, Helvetica, sans-serif; margin-top:10px; letter-spacing: 0px; }
+  ol li { font-size:12px; color:#858585; padding-left:10px; margin-bottom:7px;  list-style-type: decimal; }
+  hr  { background:url(../images/hr.jpg) top center no-repeat; border:0; outline:0; clear:both; height:10px;}
+  
+/* link styles */ 
+
+  a:link    {color:#000000; text-decoration: none;} 
+  a:visited   {color:#000000; text-decoration: none;}
+  a:hover     {color:#ab8349; text-decoration: none;}
+  a:active    {color:#ab8349; text-decoration: none;}
+  a:focus     {outline-style: none;color:#ab8349;}   
+
+  
+/* header styles */ 
+  #header        { width:100%; }
+  #logo        { margin-top:35px; width: 285px; margin-right: auto; float: left}
+  #delimitter { margin-top:30px; width:1px; height: 72px; background:url(../images/light/bg-coll.png) top left ; overflow:hidden; float: left;margin-right: 20px;margin-left: 20px;}
+  #delimitter.mobile{display:none;}
+  #description { margin-top:35px; width:600px; height: 62px ; float: left;}
+  #description #text { width:440px; height: 66px ; overflow:hidden; float: left;margin-right: 10px;}
+  #description #text p{font-size: 10px}
+  #description #thumb { width:100px; height: 100px ; overflow:hidden; float: left; margin-left: 40px; margin-top: -15px;}
+  #description #thumb img{margin-left: auto;margin-right: auto; text-align: center;}
+  #description #excerpt { width:140px; height: 20px ; overflow:hidden; float: left; margin-left: 5px; text-align: center;}
+  #description #excerpt p{font-size: 11px}
+  #misc { margin-top:30px; width:160px ; overflow:visible; float: left; margin-bottom: 10px}
+  #misc p { margin-left:2px; font-size: 11px; padding-top: 6px;padding-bottom: 0px;}
+  #misc #hassel-lang{position: relative;display: inline-block;float: left;}
+  #misc #hassel-search{position: relative;display: inline-block;float: left;margin-left: -2px}
+  #misc #hassel-share{position: relative;display: inline-block;float: left;width: 100%; margin-top: 5px;}
+  #misc #hassel-share p{float:left;}
+  #misc #hassel-news{position: relative;display: none;float: right;}
+
+/* Localization */
+#lang_sel_list {height: auto; width: 100%;}
+#lang_sel_list ul{border: none; width: 100%;height: auto;}
+#lang_sel_list li{border:none; display: inline; list-style: none; width: auto;}
+#lang_sel_list ul li a, #lang_sel_list ul li  a:visited, #lang_sel_list ul li  a:hover,#lang_sel_list ul li  a:active,#lang_sel_list ul li mas a:focus{border:none;padding: 0px;margin:0px;!important}
+ 
+ 
+/* Nav Styles */
+  #nav         { width:100%; background:url(../images/light/bg-row.png) top left repeat-x; height:auto; overflow:hidden; padding-top: 10px; padding-bottom: 10px; }
+  #nav ul        {  display: inline; list-style: none;  margin:0px; padding:0px; height:18px; line-height:18px; clear:both;   }
+  #nav ul li     { float: left;  display: inline;  font-size: 12px; margin:0px; padding:0px; background:url(../images/light/bg-coll.png) top right repeat-y; }
+  #nav ul li:last-child {background:none;}
+  #nav ul li a     { display:block; height:18px; margin-left:6px;margin-right:6px; text-decoration:none; margin-top:0px;  text-transform: uppercase;}
+  #nav ul li a:hover { }
+ 
+/* Hasel Post */
+.hassel-post-wrap { display: block; margin-bottom: 20px; float: left; position: relative;}
+.hassel-post-wrap a {text-decoration: none;color: #000;}
+
+/* Hasel Page Wrap*/
+#hassel-page-wrap{float:left; position: relative;width: 100%;height: auto;display: inline-block;}
+
+/* Hassel Poster */ /* TODO - Check Compability */
+#hassel-poster{ position: absolute;z-index:0;width: 100%;height;}
+#hassel-poster img{ height: auto; min-height: 100%; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;position: absolute;}
+#hassel-poster #header{top:30px; position:absolute; display:block; width: 40%}
+
+/* Hassel Page */
+#hassel-page {min-height:1024px;width: 880px;background-color: #FFFFFF;height: auto; margin-right: 30px;margin-left: 30px;margin-top: 20px; margin-bottom: 40px; position: relative;float: left;}
+#hassel-page-left{float:left;position: relative;display: inline-block;width:500px;} 
+/* Sidebar */
+.sidebar{ width:310px; background:#FFF; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb; margin-right:10px; margin-top:15px; float:left; display: inline-block; }
+ 
+/* post index styles */ 
+  #hassel-post-area  {float:right;position:relative;height:auto;min-height:800px; width: 195px;margin-right: 40px; margin-top: 40px; margin-bottom: 20px; border-left: thin solid #000;} /* single collumn */
+  #hassel-post-area.page-start{right:auto;position:relative;width:60%; margin-left: 10px; margin-right: 10px;margin-top: 30px;border-style: none;}
+  #hassel-post-area .post            { width:190px; height:auto ; min-height: 300px; background:#FFF; border:1px solid #000000; margin-left:20px;margin-right:20px; margin-top:0px; margin-bottom: 15px; position:relative; float:left; }
+  #hassel-post-area.page-start .post {border-style:none; margin-right: 10px; margin-left: 10px; height: 300px;}
+  #hassel-post-area .post .hassel-copy     { width:160px; margin-left:auto; margin-right:auto; padding-top:12px; padding-bottom:20px; overflow:hidden; clear:both;}
+  #hassel-post-area .post .hassel-date     { width:160px;  color:#8e8e8e; font-size:11px;  border-bottom:1px dotted #cccccc; padding-bottom:0; padding-top:0; }
+  #hassel-post-area .post .hassel-link     { width:160px; border-top:1px dotted #e8e8e8; color:#494e51;}
+
+/* post board styles */ 
+#hassel-post-area .post.board_post{min-height: 50px;height: 30px;}
+#hassel-post-area .post .hassel-copy p{padding: 0px;}
+
+/* grid area styles */ 
+  #hassel-post-grid-area  {display:inline; position:relative; float:left; width: 100%;margin-right: 40px; margin-left: 40px; margin-top: 15px; margin-bottom: 20px;} 
+  #hassel-page #hassel-post-grid-area.level-a{width: 100%;}
+  #hassel-page #hassel-post-grid-area.level-b{max-width:500px;}
+  #hassel-post-grid-area .hassel-copy        { width:100%; margin-left:0px; margin-right:auto; padding-top:20px; padding-bottom:20px; overflow:hidden; }
+  #hassel-post-grid-area .post            { width:190px; height:300px ; background:#FFF; border:1px solid #000000; margin-left:1px;margin-right:10px; margin-top:15px; position:relative; float:left;  }
+  #hassel-post-grid-area .post .hassel-copy     { width:160px; margin-left:auto; margin-right:auto; padding-top:12px; padding-bottom:20px; overflow:hidden;}
+  #hassel-post-grid-area .post .hassel-date     { width:160px;  color:#8e8e8e; font-size:11px;  border-bottom:1px dotted #cccccc; padding-bottom:0; padding-top:0; }
+  #hassel-post-grid-area .post .hassel-link     { width:160px; border-top:1px dotted #e8e8e8; color:#494e51;}
+
+/* post and page styles */ 
+  .type-post        { width:600px; background:#FFF; border-right:0px solid #dbdbdb; border-bottom:0px solid #dbdbdb; margin-right:10px; margin-top:15px; display:inline; float:left; position:relative;  }
+  .type-page        { width:600px; background:#FFF; border-right:none; border-bottom:none;  margin-right:10px; margin-top:15px; display:inline; float:left; }
+  .type-attachment      { width:600px; background:#FFF; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb; margin-right:10px; margin-top:15px; display:inline; float:left; }
+  .hassel-category      { position:absolute; width:auto; background:#000; margin-top:-35px; z-index:10;  height:30px; overflow:hidden; left:0;}
+  .hassel-category p    { margin:0; padding:0; line-height:30px; padding-left:20px; padding-right:40px; color:#fff; font-style:italic;   }
+  .hassel-category a    { color:#fff; font-style:italic;}
+  .hassel-category a:hover  { color:#555;}
+  .hassel-copy        { width:500px; margin-left:40px; margin-right:auto; padding-top:20px; padding-bottom:20px; overflow:hidden; }
+  .hassel-date        { width:150px;  color:#8e8e8e; font-size:11px;}
+  .size-full        { width:100%; height:inherit;}
+
+/* CARD */
+  .hassel-card .hassel-copy p{padding: 0px;}
+  .hassel-card-image{z-index:5; position: relative; display: block; top:10px;}
+  .hassel-card-text{position: relative;display: block;top:10px; width: 160px;margin-left: auto;margin-right: auto;}
+  .hassel-card-text p{font-size:11px; padding-top: 0px}
+
+  /* pagination */
+  .navigation{clear: left;}
+
+  /* hassel card grid */
+  .hassel-card-grid {display:inline; position:relative; float:left; width: 100%;margin-right: 40px; margin-left: 40px; margin-top: 15px; margin-bottom: 20px;} 
+
+  /* card nav styles */ 
+  .hassel-card-nav{display: inline-block;float: left;position: relative; width: 100%}
+  .hassel-card-nav ul  { background: url(../images/light/bg-row.png) top left repeat-x; padding-top:10px; padding-left: 0px; margin-left:0px; margin-top:0px; width: 100%;}
+  .hassel-card-nav ul li { font-size:12px; color:#858585; padding-left:0px; margin-bottom:-4px; list-style:none;}
+
+  /* single post nav styles */ 
+  .post-nav      { width:35px; display:inline; float:left; margin-left:10px; margin-top:15px; }
+  .post-next a     { background:url(../images/btn-left.png) top left no-repeat; height:35px; width:35px; display:inline; float:left; text-indent:-9999px; }
+  .post-next a:hover { background:url(../images/btn-left.png) top right no-repeat; height:35px; width:35px;}
+  .post-prev a     { background:url(../images/btn-right.png) top left no-repeat; height:35px; width:35px; display:inline; float:left; clear:both; text-indent:-9999px;}
+  .post-prev a:hover { background:url(../images/btn-right.png) top right no-repeat; height:35px; width:35px;}
+
+/* comment styles */
+  .comments-area ol { list-style:none; margin:0; padding:0;  border-bottom:1px solid #8e8e8e; }
+  .comments-area li { list-style:none; margin:0; padding:0; border-top:1px solid #8e8e8e; width:100%; clear:both; display:inline; float:left; margin-bottom:10px; padding:10px;  } 
+  .avatar       { display:none;} 
+  .reply      { display:none;}
+  .comment-meta   { display:none;}
+  .comment-author   { font-size:16px; font-weight:bold; font-family: 'Droid Sans', sans-serif; }
+  #comment-form   { width:50%; }
+  .text-input     { clear:both; border:1px solid #8e8e8e; margin-bottom:5px; width:90%; padding:7px; font-family:Arial, Helvetica, sans-serif; color:#555; font-size:12px;  }
+  .comment-input    { clear:both; border:1px solid #8e8e8e; margin-bottom:5px; width:90%; padding:7px; font-family:Arial, Helvetica, sans-serif; color:#555; font-size:12px;  } 
+  .comment-submit   { clear:both; width:120px; height:30px; line-height:25px; background:#e5e5e5; border:1px solid #8e8e8e;   }
+
+
+/* footer styles */
+
+  #hassel-footer{ margin-top: 10px; width: 100%; height:70px; float: left;}
+  #hassel-footer #contact {width:100%; height: 100%; float: left;}
+  #hassel-footer #contact p{text-align: center;}
+
+/* copyright styles */ /* DELETED IN HASSELBLAD THEME */
+  #copyright { clear:both; width:100%; background:none; display:block; float:left; margin-top:20px; margin-bottom:20px; }
+  #copyright p { padding-top:15px; color:#4f5356; font-size:12px; }
+  #copyright a  {color:#858585; text-decoration: none;} 
+  #copyright a:hover  {color:#000000; text-decoration: underline;}
+
+/* Additional and WordPress styles */
+  fieldset{border-style: none; margin: 0px;-webkit-margin-start: 0px;-webkit-margin-end: 0px;-webkit-padding-before: 0em;-webkit-padding-start: 0em;-webkit-padding-end: 0em;-webkit-padding-after: 0em;}
+  .current_page_item a{color:#ab8349;} 
+  #line-horizontal{ width:100%; background:url(../images/light/bg-row.png) top left repeat-x; height:57px; overflow:hidden;   }
+  .clear      { clear:both;}
+  .aligncenter    { display: block; margin: 0 auto; }
+  .alignleft    { float: left; margin-right:20px; margin-top:20px; margin-bottom:10px; }
+  .alignright   { float: right; margin: 0 0 20px 20px; }
+  .wp-caption   {  text-align: left; margin-top:5px; margin-bottom:5px; }
+  .wp-caption-text  { margin-top:2px;  text-align:left; font-style:italic;  font-size:11px; color:#999; } 
+  .sticky       {}
+  .gallery-caption  {} 
+  .bypostauthor   {}
+  blockquote    { font-size:2em; line-height:23px; color:#000; margin-left:20px; border-left: 1px dotted #999; padding-left:25px; margin-top:15px; margin-bottom:15px; }
+
+
+

@@ -1,0 +1,9 @@
+<wpml-config>
+    <admin-texts>
+        <key name="hassel_options">
+            <key name="hassel_descr_text" />
+            <key name="hassel_contact_text" />
+            <key name="hassel_descr_excerpt" />
+        </key>
+    </admin-texts>
+</wpml-config>

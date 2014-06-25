@@ -1,0 +1,93 @@
+/* mobile styles */
+
+body{min-width:0;}
+
+#wrap { width:310px; margin-left:auto; margin-right:auto; overflow:hidden; }
+
+#hassel-footer{ border-top:1px solid #000000;}
+
+ #hassel-poster{display: none;}
+
+
+ #delimitter{display: none;}
+ #delimitter.mobile{display:block;}
+
+ #description {margin-top: 0px;}
+ #description #text {width: 310px; overflow: visible;}
+ #description #thumb {display: none;}
+
+
+ #misc{width:150px;}
+
+ /* Hassel Page */
+#hassel-page {min-height:auto;width: auto;height: auto; margin-right: 0px;margin-left: 0px;margin-top: 20px; margin-bottom: 40px;}
+#hassel-page-left{width:auto;}
+#hassel-page img{width:100%;height: auto;}
+
+/* Hassel Card Area */
+#hassel-card-area  {min-height:auto; width: auto;padding-left: 0px; ;margin-right: 0px; border:none;} /* single collumn */
+#hassel-card-area.page-start{width:auto;margin-left: 0px; margin-top: 0px;}
+#hassel-card-area.page-news{float:left;padding-left: 0px;border:none;width:auto;margin-left: 0px; }
+#hassel-card-area.page-root{float:left;padding-left: 0px;border:none;width:auto;margin-left: 0px; }
+#hassel-page-left #hassel-card-area{margin-left: 0px;width:310px;}
+
+
+/* Hassel Card */
+#hassel-card{width:310px;height:auto; margin-left: 0px;margin-right: 0px; border:none; border-top: thin solid #000;float:left;}
+#hassel-card h2,#hassel-card h3, #hassel-card p,#hassel-card img{margin-left: 0px;margin-right: 0px;}
+#hassel-page-left #hassel-card-area #hassel-card{height: auto;}
+#hassel-card-area.page-start #hassel-card{height: auto;  border-top: thin solid #000; float:left;}
+#hassel-card-area.page-news #hassel-card{height: auto; border-top: thin solid #000;}
+#hassel-card-area.page-root #hassel-card{height: auto; border-top: thin solid #000;}
+#hassel-card img{width: 100%;height: auto;}
+.page-root #hassel-card-image {top:auto; position: relative; float: left;}
+.page-root #hassel-card-copy {top:auto; position: relative; float: left;}
+  
+/* Hassel Card Small*/
+#hassel-card-area #hassel-card.small{width: 310px;}
+#hassel-card-area #hassel-card.small p{width: 230px;}
+#hassel-card-area #hassel-card.small #hassel-breadcrumb{width: 310px;}
+
+
+/* Hassel Posts */
+#hassel-posts{width:auto;margin-left: 0px; margin-top: 10px; margin-bottom: 20px;}
+#hassel-posts h1{margin-top: 10px;}
+
+/* card nav styles */ 
+  #hassel-card nav{width: 100%;margin-left: 0px; margin-right: 0px;}
+  #hassel-card nav ul  { background:none; }
+
+
+/* post and page styles */ 
+#hassel-post-area .post .hassel-copy  { width:auto; margin-left:auto; margin-right:auto; padding-top:20px; padding-bottom:20px; overflow:hidden; }
+
+
+ #nav { width:310px; background:none; height:0px; overflow:hidden; }
+ #nav ul {	display: inline; list-style: none;  margin:0px; padding:0px; height:auto; line-height:42px;  }
+ #nav ul li { float: left;  display: inline;  font-size: 12px; margin:0px; padding:0px; background: none;}
+ #nav ul li a { display:block; height:42px; padding:0; margin:0px;  width:320px; border-bottom:1px solid #ccc; }
+ #nav ul li a:hover { }
+  
+ .single-post .type-post { width:auto;}
+ .single-post .type-post .hassel-copy { width:auto;}
+ .single-post .type-post img { width:290px; height:inherit;}
+ 
+ .type-page { width:auto; border:0px; border-top:1px solid #000000;}
+ .type-page .hassel-copy { width:auto; margin-left: 0px;margin-right: 0px; }
+ 
+ #comment-form { width:285px; }
+
+
+  #nav#full {display:none}
+  nav#mobile {display:block;}
+  /*Top black bar that holds the toggle button*/
+  /*Toggle button #1 ("Menu")*/
+  /*Toggle button #2 ("Navicon")*/
+  nav#mobile .navicon {margin-top: 40px; margin-right:35px ;float: right;height: 60px;width: 60px;background:url(../images/icon_menu.png) top left;background-repeat: no-repeat;}
+  /*The dropdown menu*/
+  nav#mobile ul li {clear:both;list-style:none;}
+  nav#mobile ul li a {display:block;background-color:#FFF;text-transform:uppercase;letter-spacing:.2em;margin:2px 0;padding:6px 0 6px 8px;}
+  nav#mobile ul ul {font-size:small;}
+  nav#mobile ul ul li {margin-left:30px;}
+  nav#mobile ul ul a {background-color:#333;padding-left:8px;}
+  nav#mobile ul ul a:before {content: "\2192";padding-right:8px;}
