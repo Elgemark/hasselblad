@@ -133,20 +133,20 @@ src: url(../fonts/GrotesqueMTStd-Condensed.otf);
 
 /* Hassel Card Small*/
 
-#hassel-card.small{height:90px;width: 250px;}
+#hassel-card.small{height:60px;width: 250px;}
 #hassel-card.small h2,#hassel-card.small h3, #hassel-card.small p,#hassel-card.small img{margin-left: 5px;margin-right: 5px; position: absolute;}
 #hassel-card.small h2{margin-top: 10px;margin-bottom: 5px; left:70px; white-space:nowrap;}
 #hassel-card.small img{width:62px;height: 46px;top:0px; left:0px;}
 #hassel-card.small #hassel-card-image {top:7px; left:0px;; position: absolute; float: none;}
 #hassel-card.small #hassel-card-copy {width:180px;top:16px; left:70px; position: absolute; float: none;}
-#hassel-card-area.page-start #hassel-card.small{height: 90px;}
-#hassel-card-area.page-news #hassel-card.small{height: 90px;}
-#hassel-card-area.page-root #hassel-card.small{height: 90px;}
+#hassel-card-area.page-start #hassel-card.small{height: 60px;}
+#hassel-card-area.page-news #hassel-card.small{height: 60px;}
+#hassel-card-area.page-root #hassel-card.small{height: 60px;}
 #hassel-card.small #hassel-breadcrumb{top:60px; left: 0px;margin-left: 4px; width: 240px;border-top:1px solid #8e8e8e;padding-top: 5px;}
-#hassel-page-left #hassel-card-area #hassel-card.small{height:90px;}
+#hassel-page-left #hassel-card-area #hassel-card.small{height:60px;}
 
 /* Hassel Card Small (in right column)*/
-.page-post-type #hassel-card.small{height:90px;width: 200px;}
+.page-post-type #hassel-card.small{height:60px;width: 200px;}
 .page-post-type #hassel-card.small #hassel-card-copy{width: 130px;}
 .page-post-type #hassel-card.small #hassel-breadcrumb {width: 190px;}
 

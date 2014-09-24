@@ -835,7 +835,6 @@ function hassel_card_small($post){
               }
             ?>
           </div>
-          <?php hassel_card_breadcrumb($post_section,false,true); ?>
          </div>
       <?php
 
