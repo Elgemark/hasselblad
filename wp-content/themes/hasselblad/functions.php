@@ -797,18 +797,14 @@ function hassel_card_small($post){
               $title_card = $title_post;
               $title_post = "";
             }
-            echo mb_strtoupper(hassel_trim_string($title_card,$hassel_is_root ? 24 : 14,false)); 
+            echo mb_strtoupper(hassel_trim_string($title_card,$hassel_is_root ? 14 : 14,false)); 
             ?>
           </a></h2>
            <!-- IMAGE -->
            <div id="hassel-card-image"><a href="<?php the_permalink() ?>">
             <?php 
-            if(has_post_thumbnail('card-image')){
-              if(has_post_thumbnail('card-image-small')){
-                post_thumbnail('card-image-small');
-              }else{
-                post_thumbnail('card-image');
-              }
+            if(has_post_thumbnail()){
+              the_post_thumbnail( 'card-image-small' );
             }else{
               $area = get_post_meta($post->ID,'_hassel_meta_area',true);
               $area = $area == "" ? "none" : $area;
@@ -850,16 +846,13 @@ function hassel_card_small($post){
 
 
 function hassel_card_breadcrumb($post_ID,$only_search = true,$show_top_level = false) {
-
   if (!is_search() && $only_search) { return;};
-
 
     global $post;
     $post = $post_ID ? get_post($post_ID): get_post($post->ID); 
  
     echo '<div id="hassel-breadcrumb" class="current_page_item">';
 
- 
     if( $post->post_parent) {
  
             $anc = get_post_ancestors( $post->ID );
