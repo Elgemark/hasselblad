@@ -115,7 +115,7 @@ src: url(../fonts/GrotesqueMTStd-Condensed.otf);
 #hassel-card-area.page-start{float:left;padding-left: 0px;border:none;width:60%;margin-left: 40px; margin-top: 20px;}
 #hassel-card-area.page-news{float:left;padding-left: 0px;border:none;width:610px;margin-left: 40px; margin-top: 20px;}
 #hassel-card-area.page-root{float:left;padding-left: 0px;border:none;width:610px;margin-left: 40px; margin-top: 20px;}
-#hassel-page-left #hassel-card-area{float:left;padding-left: 0px;border:none;width:600px;margin-left: 40px; margin-top: 20px;}
+#hassel-page-left #hassel-card-area{float:left;padding-left: 0px;border:none;width:600px;margin-left: 40px; margin-top: 20px; overflow-y:auto; height: 1100px}
 
 /* Hassel Card */
 #hassel-card {width:190px;height:auto; position: relative;display: inline-block;float: left;background-color: #FFF;margin-right:10px; margin-top:15px; border: thin solid #000;}

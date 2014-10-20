@@ -241,11 +241,14 @@ function hassel_loop_post_type_page($post){
         
         <?php 
           if( hassel_is_before_date("") == 'yes'){
+            /*
             if($wp_query->found_posts < 7){
                 hassel_card($post);
               }else{
                 hassel_card_small($post);
               }
+              */
+              hassel_card($post);
            }
         ?>
          

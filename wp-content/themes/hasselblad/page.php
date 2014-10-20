@@ -49,6 +49,7 @@
                  add_filter('hassel-sub-loop','hassel_loop_sub_nav');
               }
               hassel_make_sticky($post->ID, $wp_query);
+              /*
               if($post->post_parent == 0){
                   if($wp_query->found_posts < 7){
                       get_template_part('hassel','loop-card'); 
@@ -58,6 +59,8 @@
                   }else{
                     get_template_part('hassel','loop-card'); 
                   }
+                  */
+                get_template_part('hassel','loop-card'); 
                 remove_filter('hassel-sub-loop','hassel_loop_sub_nav');
                 ?>
 

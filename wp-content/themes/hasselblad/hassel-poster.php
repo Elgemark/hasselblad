@@ -41,6 +41,6 @@
     ?>
     <?php if(is_front_page()){ ?>
 
-    <div id="header" style="<?php echo $poster_header_style;?>"><a href="<?php echo get_permalink($postID) ?>" style="color:<?php echo $poster_title_color; ?>"><h style="<?php echo $poster_h_style;?>"><?php echo $poster_title; ?></h></a></div>
+    <div id="header" style="<?php echo $poster_header_style;?>"><a href="<?php echo get_permalink($postID) ?>" style="color:<?php echo $poster_title_color; ?>"><pre style="<?php echo $poster_h_style;?>"><?php echo $poster_title; ?></pre></a></div>
     <?php }?>
  </div>
